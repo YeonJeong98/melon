@@ -1,0 +1,1863 @@
+@charset "utf-8";
+
+
+@media screen and (max-width: 1900px) {
+
+    /* main1 */
+    .main1 .mainpage1 {
+        width: 100%;
+        /* height: 900px; */
+    }
+
+    .main1 .mainpage1 h3 {
+        font-size: 6rem;
+    }
+
+    .main1 .green,
+    .main1 .blue,
+    .main1 .yellow,
+    .main1 .orangee,
+    .main1 .pink {
+        width: 150px;
+        height: 150px;
+        font-size: 2.1rem;
+    }
+}
+
+
+@media screen and (max-width:1580px) {
+
+    /* header */
+    header .head {
+        justify-content: space-around;
+    }
+
+    header .head .search input {
+        margin-left: 2%;
+        margin-top: 3px;
+    }
+
+    /* main1 */
+    .main1 .mainpage1 h3 {
+        font-size: 4rem;
+    }
+
+    .main1 .green,
+    .main1 .blue,
+    .main1 .yellow,
+    .main1 .orangee,
+    .main1 .pink {
+        width: 130px;
+        height: 130px;
+        top: 68%;
+        left: 83%;
+        padding-top: 2.3%;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+}
+
+
+@media screen and (max-width:1440px) {
+
+    /* header */
+    header .head {
+        justify-content: space-around;
+    }
+
+    header .head .search input {
+        margin-left: 2%;
+        margin-top: 2px;
+        font-size: 1.6rem;
+    }
+
+    header .head .search img {
+        position: absolute;
+        left: 30px;
+        top: 16px;
+        width: 25px;
+        z-index: 10;
+    }
+
+    header .head .search {
+        margin-left: 100px;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
+    /* main1 */
+    .main1 .mainpage1 {
+        height: 700px;
+    }
+
+    .main1 .mainpage1 h3 {
+        font-size: 4rem;
+    }
+
+    .main1 .green,
+    .main1 .blue,
+    .main1 .yellow,
+    .main1 .orangee,
+    .main1 .pink {
+        width: 140px;
+        height: 140px;
+        top: 70%;
+        left: 83%;
+        padding-top: 3%;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    /* toggle */
+
+    .togglebar {
+        bottom: 80px;
+    }
+
+    .togglebutton {
+        bottom: 15px;
+    }
+}
+
+
+@media screen and (max-width:1400px) {
+
+    /* header */
+    header .head {
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    header .head .search input {
+        margin-left: 2%;
+        margin-top: 3px;
+    }
+
+    /* main1 */
+    .main1 .mainpage1 {
+        height: 680px;
+    }
+
+    .main1 .mainpage1 h3 {
+        font-size: 4rem;
+    }
+
+    .main1 .green,
+    .main1 .blue,
+    .main1 .yellow,
+    .main1 .orangee,
+    .main1 .pink {
+        width: 140px;
+        height: 140px;
+        top: 65%;
+        left: 83%;
+        padding-top: 2.9%;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    /* footer */
+    footer .footerlogo img {
+        margin: 0 0 70px 45%;
+    }
+}
+
+
+@media screen and (max-width:1360px) {
+
+    /* header */
+    header .head {
+        justify-content: space-around;
+    }
+
+    header .head .search input {
+        margin-left: 1%;
+        margin-top: 3px;
+    }
+
+    header .head .minimenubar .minilist {
+        margin-left: 0;
+    }
+
+    .main1 .mainpage1 h3 {
+        font-size: 4rem;
+    }
+
+    .main1 .green,
+    .main1 .blue,
+    .main1 .yellow,
+    .main1 .orangee,
+    .main1 .pink {
+        width: 125px;
+        height: 125px;
+        top: 65%;
+        left: 83%;
+        padding-top: 2.7%;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    html {
+        font-size: 9px;
+    }
+
+    .inner {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0 30px;
+        margin-top: 100px;
+    }
+
+    /* main1 */
+    .main1 .mainpage1 h3 {
+        font-size: 4rem;
+    }
+
+    .main1 .green,
+    .main1 .blue,
+    .main1 .yellow,
+    .main1 .orangee,
+    .main1 .pink {
+        width: 110px;
+        height: 110px;
+        top: 65%;
+        left: 83%;
+        padding-top: 2.1%;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    /* main2 */
+    .main2 {
+        width: 100%;
+    }
+
+    .main2>h3 {
+        font-size: 2rem;
+    }
+
+    .main2 ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main2 .title h3 {
+        margin-left: 25px;
+    }
+
+    .main2 .main2dummy {
+        margin: 30px 20px;
+    }
+
+    .main2 .main2dummy li:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .main2 .main2dummy li {
+        height: 200px;
+    }
+
+    .main2 .main2mini {
+        margin: 0 0 10px 0;
+        font-size: 2.5rem;
+
+    }
+
+    .main2 .main2dummy a {
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
+
+    .main2title {
+        padding: 30px 25px;
+    }
+
+
+    /* main3 */
+    .main3 {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .main3 .box {
+        width: 100%;
+    }
+
+    .main3 .box .boxdummy {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .main3 .box .boxdummy img {
+        max-width: 50px;
+
+    }
+
+    .main3 .box .boxdummy p {
+        font-size: 1.8rem;
+        margin: 15px;
+    }
+
+    .main3 .box .boxdummy .icon {
+        gap: 2px;
+        display: flex;
+    }
+
+    /* main4 */
+    /* 추가 */
+    .main4 .title h3 {
+        margin: 0 20px;
+    }
+
+    .main4slide .swiper-slide {
+        transform: scale(1);
+    }
+
+    .main4 .slidebox {
+        margin: 30px 20px;
+        width: 95%;
+    }
+
+    .main4slide .swiper-slide-active {
+        transform: scale(1);
+        z-index: 9;
+        margin: 1px;
+        border-radius: 10px;
+        font-size: 100%;
+    }
+
+
+
+    .main4slide .swiper-slide .text {
+        font-size: 2rem;
+    }
+
+    /* .main4slide .swiper-wrapper {
+        gap: 50px;
+    } */
+
+
+    /* main5 */
+    .main5 .newmusic {
+        gap: 10px;
+
+        justify-content: space-evenly;
+    }
+
+
+    .main6 .melontv {
+        margin: 10px 0;
+    }
+
+
+    .main5 .tvimg {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main5 img {
+        width: 100%;
+    }
+
+
+    /* main6 */
+    .main6 .melontv {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .main6 .tvdummy {
+        margin-top: 20px;
+    }
+
+    .main6 .melontv .tvdummy .tv {
+        display: block;
+        width: 100%;
+        z-index: 0;
+        position: relative;
+    }
+
+    /* main7 */
+
+    .main7 {
+        height: 800px;
+    }
+
+    .main7 .ibox {
+        width: 500px;
+        height: 450px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 80px;
+    }
+
+    .main7 .ibox img {
+        width: 460px;
+        max-height: 400px;
+        /* 최대 높이 제한 */
+    }
+
+    .main7 .ibox h3 {
+        font-size: 24px;
+    }
+
+    .main7 button {
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    /* footer */
+
+    footer .inner {
+        margin-top: 0px;
+    }
+
+}
+
+
+@media screen and (max-width:1200px) {
+
+
+    /* header */
+    header .head {
+        justify-content: space-around;
+    }
+
+    header .head .search input {
+        width: 500px;
+        margin-top: 3px;
+    }
+
+    /* main1 */
+
+    .main1 .mainpage1 {
+        height: 590px;
+    }
+
+    .main1 .mainpage1 h3 {
+        font-size: 4rem;
+    }
+
+    .main1 .green,
+    .main1 .blue,
+    .main1 .yellow,
+    .main1 .orangee,
+    .main1 .pink {
+        width: 95px;
+        height: 95px;
+        top: 70%;
+        left: 83%;
+        padding-top: 2.1%;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+}
+
+
+
+@media screen and (max-width:1095px) {
+
+    /* main1 */
+    .main1 .mainpage1 h3 {
+        font-size: 4rem;
+    }
+
+    .main1 .green,
+    .main1 .blue,
+    .main1 .yellow,
+    .main1 .orangee,
+    .main1 .pink {
+        display: none;
+    }
+
+    .main1 .mainpage1 {
+        height: 530px;
+    }
+}
+
+
+@media screen and (max-width: 1060px) {
+
+    .main7 {
+        height: 700px;
+    }
+
+    .main7 .ibox {
+        width: 400px;
+        height: 350px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 60px;
+    }
+
+    .main7 .ibox img {
+        width: 360px;
+        max-height: 350px;
+        /* 최대 높이 제한 */
+    }
+
+    .main7 .ibox h3 {
+        font-size: 24px;
+    }
+
+    .main7 button {
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    /* header */
+    header .logo img {
+        width: 40px;
+        margin-top: 5px;
+        margin-left: 120%;
+    }
+
+    header .head .search input {
+        width: 550px;
+        margin-top: 3px;
+        margin-left: 22%;
+    }
+
+    header .head .search img {
+        position: absolute;
+        left: 140px;
+        top: 16px;
+        width: 25px;
+        z-index: 10;
+    }
+
+    header .head .search {
+        margin-left: 10px;
+    }
+
+    header .minilist li:nth-child(1) {
+        display: none;
+    }
+
+    header .minilist li:nth-child(2) {
+        display: none;
+    }
+
+    header .minilist li:nth-child(3) {
+        margin-left: 70%;
+    }
+
+    /* mian1 */
+
+    .main1 .mainpage1 h3 {
+        font-size: 3.8rem;
+    }
+
+    .main1 .mainpage1 {
+        height: 500px;
+    }
+
+    /* main3 */
+    .main3 .box .boxdummy .icon a img {
+        display: block;
+    }
+
+    .main3 .boxdummy {
+        gap: 10px;
+    }
+
+    .main3 .box .boxdummy .number {
+        font-size: 4rem;
+        margin-right: 10px;
+    }
+
+    .main3 .box .boxdummy .icon img {
+        max-width: 25px;
+    }
+
+
+    /* mian4 */
+    .main4slide .swiper-wrapper {
+        gap: 10px;
+        height: 250px;
+    }
+
+    .main4slide .swiper-slide {
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .main4 .slidebox {
+        height: 250px;
+        width: 95%;
+    }
+
+    .main4 .title img {
+        padding-top: 1px;
+        padding-left: 10px;
+    }
+
+    .main4slide .swiper-slide .text {
+        font-size: 1.3rem;
+        height: 35%;
+    }
+
+    .main4 .swiper-pagination {
+        position: relative;
+        bottom: -10px;
+    }
+
+    .main5 .newmusic li p {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-top: 15px;
+    }
+
+    /* main6 */
+    .main6 .melontv {
+        gap: 20px;
+    }
+
+    .main6 .icon1 img {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* footer */
+
+    footer .footerlogo img {
+        width: 15%;
+    }
+
+    footer .event img {
+        margin-top: 0;
+    }
+
+    footer .inner {
+        margin-top: 0;
+    }
+
+    footer .footerlist {
+        margin: 0 30px;
+    }
+
+    footer .copyright {
+        margin: 0 30px;
+    }
+
+
+
+    /* toggle */
+    .togglebar {
+        width: 350px;
+        height: 600px;
+    }
+
+    .togglebar .minihead img {
+        margin-top: -8px;
+    }
+
+    .togglebar .top img {
+        margin-top: -5px;
+    }
+
+    .togglebar .top {
+        margin: 10px;
+    }
+
+    .togglebar .player-track {
+        width: 230px;
+        height: 60px;
+        bottom: 65px;
+        left: 82px;
+    }
+
+    .togglebar .music .musicbox img {
+        height: 60px;
+    }
+
+    .togglebar .player-track .name1 {
+        margin: 0 0 1% 0;
+    }
+
+    .togglebar .playlist {
+        margin-top: 30px;
+    }
+
+    .togglebar .plist1 {
+        bottom: 160px;
+        left: 30px;
+    }
+
+    .togglebar .plist2 {
+        bottom: 159px;
+        left: 130px;
+
+    }
+
+    .togglebar .plist3 {
+        bottom: 160px;
+        left: 230px;
+    }
+
+    .togglebar .plist4 {
+        bottom: 58px;
+        left: 30px;
+    }
+
+    .togglebar .plist5 {
+        bottom: 58px;
+        left: 130px;
+
+    }
+
+    .togglebar .plist6 {
+        bottom: 58px;
+        left: 230px;
+    }
+
+    /* 토글 푸터 */
+    .togglebar .minifooter {
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width:840px) {
+
+    /* header */
+    header .logo img {
+        width: 45px;
+        margin-left: 120%;
+    }
+
+    header .head .search input {
+        width: 450px;
+        margin-top: 3px;
+        margin-left: 30%;
+    }
+
+    /* mian1 */
+    .main1 .mainpage1 h3 {
+        font-size: 2.5rem;
+        top: 60%;
+
+    }
+
+    .main1 .mainpage1 {
+        height: 410px;
+    }
+
+    .main1 .mainpage1 h3 {
+        font-size: 3rem;
+    }
+
+    header .minilist li:nth-child(1) {
+        display: none;
+    }
+
+    header .minilist li:nth-child(2) {
+        display: none;
+    }
+
+    /* main3 */
+    .main3 .box .boxdummy p {
+        font-size: 1.65rem;
+        font-weight: 400;
+        margin: 10px;
+    }
+
+    .onoff {
+        display: none;
+    }
+
+    .main5 .newmusic li {
+        width: 45%;
+    }
+
+    .main5 .newmusic {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    /* main7 */
+
+    .main7 {
+        height: 800px;
+    }
+
+    .main7 .ibox {
+        width: 350px;
+        height: 400px;
+    }
+
+    .main7 .ibox img {
+        width: 310px;
+        height: 300px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    /* header */
+    header .logo img {
+        width: 45px;
+        margin-left: 120%;
+    }
+
+    header .head .search input {
+        width: 400px;
+        margin-top: 3px;
+        margin-left: 30%;
+    }
+
+    /* mian1 */
+    .main1 .mainpage1 h3 {
+        font-size: 2.8rem;
+        margin-left: 30px;
+    }
+
+    .main1 .mainpage1 {
+        height: 400px;
+    }
+
+
+    /* footer */
+    .footerbox .footerlist .sub {
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .footerbox .inner {
+        width: 100%;
+    }
+
+    .footerbox .footerlist {
+        font-weight: 400;
+        font-size: 1.7rem;
+        padding: 0 50px;
+    }
+
+    .footerbox .footerlogo img {
+        margin-left: 180px;
+    }
+
+    footer .copyright p {
+        display: block;
+        padding: 0 50px;
+        line-height: 25px;
+    }
+
+    footer .copyright p:nth-child(1) {
+        display: none;
+    }
+
+    footer .footerbox {
+        padding: 5px 0 70px 0;
+    }
+
+
+    header .head .search input {
+        width: 400px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 774px) {
+
+    /* main3 */
+    .main3 .box .boxdummy .album p {
+        width: 100px;
+    }
+
+    .main3 .box .boxdummy p {
+        font-size: 1.45rem;
+        font-weight: 500;
+        margin: 10px;
+        width: 130px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .head .minimenubar .minilist img {
+        width: 40px;
+    }
+
+    /* header */
+    /* header .head {
+        position: fixed;
+    } */
+
+    header .head .search input {
+        padding-left: 60px;
+    }
+
+    header .ee {
+        display: none;
+    }
+
+    /* main2 */
+    .main2 {
+        margin-top: 100px;
+    }
+
+    /* main3 */
+    .main3 button {
+        width: 100px;
+        height: 30px;
+        font-size: 1.4rem;
+    }
+
+    .main3 .button {
+        margin-top: 16px
+    }
+
+    /* main4 */
+    .main4slide .swiper-wrapper {
+        gap: 10px;
+
+    }
+
+    .main4 {
+        margin-top: 100px;
+    }
+
+    .main4slide .swiper-slide {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .main4 .slidebox {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .main4 .swiper-pagination {
+        position: relative;
+        bottom: -10px;
+    }
+
+
+    /* main5 */
+    .main5 {
+        margin-top: 100px;
+    }
+
+    .main5 .newmusic li p {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .main5 .newmusic li .singer {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    /* main6 */
+
+    .main6 .melontv .tv {
+        position: relative;
+    }
+
+    .main6 .melontv .tv .icon1 {
+        display: block;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        z-index: 2;
+    }
+
+    .main6 .icon1 img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    /* main7 */
+    .main7 {
+        height: 700px;
+        margin-top: -20px;
+    }
+
+    .main7 .ibox {
+        width: 330px;
+        height: 330px;
+    }
+
+    .main7 .ibox img {
+        width: 290px;
+        height: 250px;
+
+    }
+
+    /* footer */
+
+    .footerbox .footerlogo img {
+        margin: 0 auto 30px;
+        display: block;
+    }
+
+    .footerbox .inner {
+        margin: 30px 0 0 10px;
+    }
+
+    footer .event img {
+        margin-top: 0;
+    }
+
+    .footerbox .footerlist {
+        margin-bottom: 30px;
+    }
+
+    /* toggle */
+
+    .togglebar {
+        position: relative;
+    }
+
+    .togglebar .toginner {
+        display: none;
+    }
+
+    .togglebar .minifooter {
+        display: none;
+    }
+
+    .togglebutton {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 693px) {
+    .main5 .newmusic li p {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .main5 .newmusic li .singer {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    .main3 .box .boxdummy .number {
+        padding: 0 10px;
+    }
+
+    .main3 .title img {
+        width: 40px;
+        padding: 2px 0 0 20px;
+    }
+
+    .main3 img {
+        width: 150px;
+    }
+
+    .main3 {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .main3 .chatbox {
+        height: 420px;
+    }
+
+    .main3 .chatbox.click {
+        height: 870px;
+    }
+
+    .main3 .box {
+        width: 100%;
+        height: 70px;
+    }
+
+    .main3 .box .boxdummy {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main3 .box .boxdummy img {
+        /* padding: 0 15px; */
+        width: 40px;
+        margin-top: 3px;
+    }
+
+    .main3 .box .boxdummy .album {
+        display: none;
+    }
+
+    .main3 .box .boxdummy p {
+        font-size: 1.3rem;
+        /* margin: 12px; */
+        width: 80px;
+
+    }
+
+    .main3 .box .boxdummy .icon {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 690px) {
+
+    /* header */
+    header .logo img {
+        width: 40px;
+        margin-left: 70%;
+    }
+
+    header .head .search input {
+        width: 350px;
+        margin-left: 33%;
+        margin-top: 3px;
+    }
+
+    /* mian1 */
+    .main1 .mainpage1 h3 {
+        font-size: 2.3rem;
+    }
+
+    .main1 .mainpage1 {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .main5 .newmusic li {
+        width: 45%;
+    }
+
+    .main5 .newmusic {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+}
+
+@media screen and (max-width: 590px) {
+
+    /* header */
+    header .logo img {
+        width: 40px;
+        margin-left: 70%;
+    }
+
+    header .head .search {
+        margin-left: -10px;
+    }
+
+
+    header .head .search input {
+        width: 320px;
+        margin-top: 3px;
+        margin-left: 33%;
+    }
+
+    /* mian1 */
+    .main1 .mainpage1 h3 {
+        font-size: 2rem;
+
+    }
+
+    .main1 .mainpage1 {
+        height: 300px;
+    }
+
+}
+
+
+@media screen and (max-width: 560px) {
+
+    /* header */
+    header .logo img {
+        width: 40px;
+        margin-left: 70%;
+    }
+
+    /* main1 */
+    header .head .search input {
+        width: 300px;
+        margin-top: 3px;
+        margin-left: 0;
+    }
+
+    .main1 .mainpage1 {
+        height: 300px;
+    }
+
+    .main1 .mainpage1 h3 {
+        font-size: 1.8rem;
+    }
+
+}
+
+
+@media screen and (max-width: 520px) {
+
+    /* header */
+    header .logo img {
+        width: 40px;
+        margin-left: 50%;
+    }
+
+    header .head .search input {
+        width: 300px;
+        margin-top: 3px;
+        margin-left: 25%;
+    }
+
+    /* mian1 */
+    .main1 .mainpage1 h3 {
+        font-size: 1.8rem;
+    }
+
+    .main1 .mainpage1 {
+        height: 260px;
+    }
+
+    /* footer */
+    footer .copyright p:nth-child(4) {
+        display: none;
+    }
+
+    footer .copyright p:nth-child(5) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    footer .copyright p {
+        font-size: 1.1rem;
+        padding: 0 20px;
+    }
+
+    .footerbox .footerlist {
+        padding: 0 0px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    /* header */
+    header .logo img {
+        width: 40px;
+        margin-left: 50%;
+    }
+
+
+    /* mian1 */
+    .main1 .mainpage1 h3 {
+        font-size: 1.5rem;
+    }
+
+    .main1 .mainpage1 {
+        height: 220px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+
+    body {
+        margin: 0 auto;
+    }
+
+    .inner {
+        margin: 0 auto;
+        padding: 0 0px;
+    }
+
+    /* header */
+
+    header {
+        height: 60px;
+    }
+
+    header .head {
+        padding-top: 2px;
+        height: 50px;
+    }
+
+    header .head .search {
+        margin: 0;
+    }
+
+    header .logo img {
+        width: 28px;
+        margin-top: 10px;
+        margin-left: 65%;
+    }
+
+    header .head .minimenubar .minilist img {
+        width: 30px;
+        margin-top: 12px;
+        margin-left: -20px;
+    }
+
+    header .head .search {
+        margin-left: 50px;
+    }
+
+    header .head .search img {
+        position: absolute;
+        left: 50px;
+        top: 19.3px;
+        width: 15px;
+        z-index: 10;
+    }
+
+    header .head .search input {
+        width: 200px;
+        height: 30px;
+        margin-top: 12px;
+        margin-left: 20%;
+        padding: 5px 29px;
+        font-size: 1rem;
+        padding-left: 40px;
+        letter-spacing: 1px;
+    }
+
+    /* mian1 */
+
+    .main1 .mainpage1 h3 {
+        font-size: 1.5rem;
+        margin-left: 15px;
+        margin-top: 200px;
+    }
+
+    .main1 .mainpage1 {
+        height: 250px;
+
+    }
+
+    .main1 .mainpage1 .swiper-slide {
+        background-size: cover;
+    }
+
+    /* main1swiper */
+    .mainpage1 .img1 {
+        background: url(../img1/JBO.png) no-repeat right top/100%;
+    }
+
+    .main1 .img2 {
+        background: url(../img1/IVE.png) no-repeat right top/100%;
+    }
+
+    .main1 .img3 {
+        background: url(../img1/ROSE.png) no-repeat right top/100%;
+    }
+
+    .main1 .img4 {
+        background: url(../img1/ILLIT.png) no-repeat right top/100%;
+    }
+
+    .main1 .img5 {
+        background: url(../img1/DAY6.png) no-repeat right top/100%;
+    }
+
+
+
+    /* main2 */
+    .main2 h3 a {
+        font-size: 2.3rem;
+    }
+
+    .main2 img {
+        margin-top: 8px;
+        width: 40px;
+    }
+
+    .main2 {
+        margin: 60px 0 60px 0;
+    }
+
+    .main2 .main2mini {
+        font-size: 2rem;
+
+    }
+
+    /* main3 */
+
+    .main3 h3 {
+        font-size: 2.3rem;
+    }
+
+    .main3 .box .boxdummy .number {
+        padding-left: 5px;
+    }
+
+    .main3 .title img {
+        width: 40px;
+        padding: 2px 0 0 20px;
+    }
+
+    .main3 img {
+        width: 150px;
+    }
+
+    .main3 {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .main3 .chatbox {
+        height: 420px;
+        margin-top: 30px;
+    }
+
+    .main3 .chatbox.click {
+        height: 870px;
+    }
+
+    .main3 .box {
+        width: 100%;
+        height: 70px;
+    }
+
+    .main3 .box .boxdummy {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        font-size: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main3 .box .boxdummy img {
+        /* padding: 0 15px; */
+        width: 40px;
+        margin-top: 3px;
+    }
+
+    .main3 .box .boxdummy .album {
+        display: none;
+    }
+
+    .main3 .box .boxdummy p {
+        font-size: 1.3rem;
+        /* margin: 12px; */
+        width: 80px;
+
+    }
+
+    .main3 .box .boxdummy .icon {
+        display: none;
+    }
+
+    .main3 button {
+        width: 80px;
+        height: 25px;
+        font-size: 1rem;
+    }
+
+    .main3 .box .boxdummy .number {
+        font-size: 3rem;
+        padding-right: 8px;
+    }
+
+
+    /* main4 */
+
+    .main4 {
+        margin-top: 60px;
+    }
+
+    .main4 .title img {
+        width: 40px;
+        padding: 2px 0 0 20px;
+    }
+
+    .main4 .main4slide .swiper-wrapper {
+        align-items: center;
+        margin: 0 auto;
+        gap: 0px;
+
+    }
+
+    .main4 .title h3 {
+        font-size: 2.3rem;
+        margin: 0 0 0 20px;
+    }
+
+    .main4 {
+        height: 300px;
+    }
+
+    .main4 .slidebox {
+        height: 300px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .main4 .swiper-pagination {
+        display: none;
+    }
+
+    .main4slide .swiper-slide .text {
+        font-size: 1.1rem;
+        height: 30%;
+
+    }
+
+    .main4slide .swiper-slide .text h2 {
+        line-height: 18px;
+    }
+
+    /* .main4slide .swiper-wrapper img {
+        width: 90%;
+    } */
+
+
+    /* main5 */
+    .main5 {
+        margin-top: 60px;
+        margin: 30px 30px;
+    }
+
+    .main5 h3 {
+        font-size: 2.3rem;
+    }
+
+    /* .main5 .newmusic li .new a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } */
+
+    .main5 .newmusic {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .newmusic li {
+        width: 177px;
+
+    }
+
+    .newmusic .new img {
+        width: 100%;
+        display: block;
+    }
+
+    .main5 .newmusic li p {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 8px;
+    }
+
+    .main5 .newmusic li .singer {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    .main5 .newmusic li .new .newoverlay {
+        display: none;
+    }
+
+    .main5 .title img {
+        width: 40px;
+    }
+
+
+
+    /* main6 */
+    .main6 {
+        margin: 60px 30px 0 30px;
+    }
+
+    .main6 .title h3 {
+        font-size: 2.3rem;
+    }
+
+    .main6 img {
+        width: 40px;
+    }
+
+    .main6 .melontv {
+        gap: 10px;
+    }
+
+    .main6 .melontv .tvdummy .tv {
+        margin: 10px 0;
+    }
+
+    .main6 .tvdummy {
+        margin: 0;
+    }
+
+    .main6 .melontv .tvdummy .tv .icon1 img {
+        display: none;
+    }
+
+
+    /* main7 */
+
+    .main7 {
+        height: 900px;
+    }
+
+    .main7 .inner {
+        padding-top: 70px;
+    }
+
+    .main7 .title h3 {
+        font-size: 2.3rem;
+        margin-left: 30px;
+    }
+
+    .main7 .title img {
+        width: 30px;
+    }
+
+    .main7 .boxs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main7 .boxs .ibox {
+        width: 350px;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .main7 .boxs .ibox img {
+        width: 310px;
+        height: 210px;
+    }
+
+    .main7 button {
+        display: none;
+    }
+
+    /* footer */
+
+    .footer .event img {
+        margin-top: 0;
+    }
+
+    .footerbox .inner {
+        margin: 10px 0 0 0px;
+    }
+
+    footer .footerbox {
+        padding: 10px 0 20px 0;
+    }
+
+    .footerbox .footerlist {
+        margin-bottom: 0;
+    }
+
+    .footerbox .footerlogo img {
+        margin: 0 auto 10px;
+    }
+
+    .footerlist li a {
+        font-size: 1.3rem;
+    }
+
+    footer .copyright {
+        padding-top: 20px;
+    }
+
+    footer .copyright p {
+        font-size: 1.1rem;
+    }
+
+    footer .event img {
+        margin-top: 0;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+
+    body {
+        margin: 0 auto;
+    }
+
+    /* header */
+    header {
+        height: 50px;
+    }
+
+    header .head {
+        padding-top: 3px;
+        height: 40px;
+
+    }
+
+    header .head .search {
+        margin-left: 23px;
+    }
+
+    header .icon {
+        position: absolute;
+        right: 50;
+    }
+
+    header .head .minimenubar .minilist img {
+        margin-top: -10px;
+        margin-left: -20px;
+        z-index: 99;
+    }
+
+
+
+    /* main1 */
+    .main1 .mainpage1 h3 {
+        font-size: 1.4rem;
+        margin-left: 10px;
+        margin-top: 190px;
+    }
+
+    .main1 .mainpage1 {
+        height: 230px;
+
+    }
+
+    .main3 img {
+        display: none;
+    }
+
+    .main3 .chatbox .box .boxdummy p {
+        font-size: 1rem;
+        width: 80px;
+    }
+
+    .main5 {
+        margin-top: 60px;
+        margin: 30px 30px;
+    }
+
+    .main5 h3 {
+        font-size: 2.3rem;
+    }
+
+    .main5 .newmusic li p {
+        font-size: 1.2rem;
+    }
+
+
+    .newmusic li {
+        width: 150px;
+
+    }
+
+    .newmusic .new img {
+        width: 100%;
+        display: block;
+    }
+
+
+    .main7 .title h3 {
+        font-size: 2.3rem;
+        margin-left: 30px;
+    }
+
+    .main7 .title img {
+        width: 30px;
+    }
+
+    .main7 .boxs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main7 .boxs .ibox {
+        width: 300px;
+        height: 250px;
+    }
+
+    .main7 .boxs .ibox img {
+        width: 260px;
+        height: 150px;
+    }
+
+    .main7 button {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    /* header */
+    header {
+        height: 75px;
+    }
+
+    header .head {
+        padding-top: 35px;
+        height: 100px;
+
+    }
+
+    header .head .search {
+        margin-left: 0;
+    }
+
+    header .minilist li:nth-child(3) {
+        margin-left: 60%;
+    }
+
+    /* main1 */
+    .main1 .mainpage1 h3 {
+        font-size: 1.2rem;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+
+    .main1 .mainpage1 {
+        height: 190px;
+
+    }
+
+    /* main2 */
+    .main2 h3 a {
+        font-size: 2rem;
+    }
+
+    /* main3 */
+
+    .main3 h3 {
+        font-size: 2rem;
+    }
+}

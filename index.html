@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>melon.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="icon" href="img1/melon.png">
+</head>
+
+<body>
+    <header>
+        <section class="head">
+            <div class="logo">
+                <a href="http://127.0.0.1:5500/melon/red.html"><img src="img1/melon.png" alt=""></a>
+            </div>
+            <div class="search">
+                <img src="img1/dbg.png" alt="">
+                <input type="text" id="searchInput" placeholder="듣고 싶은 노래를 검색하세요!">
+            </div>
+            <div class="minimenubar">
+                <ul class="minilist">
+                    <li class="ee">
+                        <a href="">이용권 구매</a>
+                    </li>
+                    <li class="ee">
+                        <a href="">이벤트 / 공지사항</a>
+                    </li>
+                    <li>
+                        <a class="icon" href=""><img src="img1/Person.png" alt=""></a>
+                    </li>
+                    <li class="onoff" onclick="toggleDarkMode()">
+                        <img src="img1/left.png" alt="">
+                        <img src="img1/right.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="main1">
+            <div class="swiper mainpage1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide img1">
+                        <h3>청량감으로 무장한<br>'IN Bloom'</h3>
+                        <div class="green">
+                            <p> ZERO <br> BASEONE</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide img2">
+                        <h3>행운은 늘 내 편! <br> THE 3rd EP</h3>
+                        <div class="blue">
+                            <p> IVE <br> 아이브</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide img3">
+                        <h3>K-pop 여성 <br> 아티스트 최고 기록
+                        </h3>
+                        <div class="yellow">
+                            <p> ROSE <br> 로제</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide img4">
+                        <h3>'너'와 상호작용이 <br> 시작되는 순간!</h3>
+                        <div class="orangee">
+                            <p>ILLIT <br> 아일릿</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide img5">
+                        <h3>DAY6가 전하는 <br> 내일의 이야기</h3>
+                        <div class="pink">
+                            <p>DAY6 <br> 데이식스</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="inner">
+            <section class="main2">
+                <div class="title">
+                    <h3><a href="">당신을 위한 추천 플레이리스트</a></h3>
+                    <img src="img/top100/icon0.png" alt="이동버튼">
+                </div>
+                <ul class="main2dummy">
+                    <li data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="">
+                            <div class="main2title">
+                                <div class="main2mini">출근길<br>드라이브
+                                </div>
+                                <p>20곡</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="500" data-aos-anchor-placement="top-bottom"><a href="">
+                            <div class="main2title">
+                                <div class="main2mini">기분전환</div>
+                                <p>20곡</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="1000" data-aos-anchor-placement="top-bottom">
+                        <a href="">
+                            <div class="main2title">
+                                <div class="main2mini">새벽감성<br>잔잔한 인디</div>
+                                <p>20곡</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="main3">
+                <div class="inner">
+                    <div class="title">
+                        <h3>TOP 100</h3>
+                        <a href="" class="ED">
+                            <img src="img/top100/icon0.png" alt="이동버튼">
+                        </a>
+                    </div>
+                    <div class="chatbox">
+                        <div class="box">
+                            <!-- <div class="box1"> -->
+                            <div class="boxdummy">
+                                <div class="number">1</div>
+                                <a href="">
+                                    <img src="img/top100/top1.png" alt="">
+                                </a>
+                                <p>like JENNIE</p>
+                                <div class="album">
+                                    <p>Ruby</p>
+                                </div>
+                                <!-- </div> -->
+                                <p>제니(JENNIE)</p>
+                                <p>♡130,749</p>
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <!-- <div class="box2"> -->
+                            <div class="boxdummy">
+                                <div class="number">2</div>
+                                <a href="">
+                                    <img src="img/top100/top2.png" alt="">
+                                </a>
+                                <p>HOME SWEET HOME </p>
+                                <div class="album">
+                                    <p>HOME SWEET HOME</p>
+                                </div>
+                                <!-- </div> -->
+                                <p>G-DRAGON</p>
+                                <p>♡ 212,540</p>
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <!-- <div class="box3"> -->
+                            <div class="boxdummy">
+                                <div class="number">3</div>
+                                <a href="">
+                                    <img src="img/top100/top3.png" alt="">
+                                </a>
+                                <p>HANDS UP</p>
+                                <div class="album">
+                                    <p>MY EYES OPEN VVIDE</p>
+                                </div>
+                                <!-- </div> -->
+                                <p>MEOVV</p>
+                                <p>♡ 53,206</p>
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <!-- <div class="box4"> -->
+                            <div class="boxdummy">
+                                <div class="number">4</div>
+                                <a href="">
+                                    <img src="img/top100/top4.png" alt="">
+                                </a>
+                                <p>Toxic till the end</p>
+                                <div class="album">
+                                    <p>rosie</p>
+                                </div>
+                                <p>로제(ROSÉ)</p>
+                                <p>♡ 37,618</p>
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="box">
+                            <!-- <div class="box1"> -->
+                            <div class="boxdummy">
+                                <div class="number">5</div>
+                                <a href="">
+                                    <img src="img/top100/top5.png" alt="">
+                                </a>
+                                <p>REBEK HEART</p>
+                                <div class="album">
+                                    <p>IVE EMPATHY</p>
+                                </div>
+                                <!-- </div> -->
+                                <p>IVE(아이브)</p>
+                                <p>♡ 79,639</p>
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <!-- <div class="box4"> -->
+                            <div class="boxdummy">
+                                <div class="number">6</div>
+                                <a href="">
+                                    <img src="img/top100/top6.png" alt="">
+                                </a>
+                                <p>FAMOUS</p>
+                                <div class="album">
+                                    <p>FAMOUS</p>
+                                </div>
+                                <p>ALLDAY PROJECT</p>
+
+                                <p>♡ 28,546</p>
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <!-- <div class="box4"> -->
+                            <div class="boxdummy">
+                                <div class="number">7</div>
+                                <a href="">
+                                    <img src="img/top100/top7.png" alt="">
+                                </a>
+                                <p>너에게 닿기를</p>
+                                <div class="album">
+                                    <p>너에게 닿기를</p>
+                                </div>
+                                <p>10CM</p>
+                                <p>♡ 111,247</p>
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <!-- <div class="box4"> -->
+                            <div class="boxdummy">
+                                <div class="number">8</div>
+                                <a href="">
+                                    <img src="img/top100/top8.png" alt="">
+                                </a>
+                                <p>시작의 아이</p>
+                                <div class="album">
+                                    <p>시작의 아이 <br>ハジマリのコ</p>
+                                </div>
+                                <p>마크툽 MAKTUB</p>
+                                <p>♡ 46,959</p>
+
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <!-- <div class="box4"> -->
+                            <div class="boxdummy">
+                                <div class="number">9</div>
+                                <a href="">
+                                    <img src="img/top100/top9.png" alt="">
+                                </a>
+                                <p>모르시나요<br>(PROD.로코베리)</p>
+                                <div class="album">
+                                    <p>모르시나요</p>
+                                </div>
+                                <p>조째즈</p>
+
+                                <p>♡ 81,834</p>
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <!-- <div class="box4"> -->
+                            <div class="boxdummy">
+                                <div class="number">10</div>
+                                <a href="">
+                                    <img src="img/top100/top10.png" alt="">
+                                </a>
+                                <p>Drowning</p>
+                                <div class="album">
+                                    <p>OO-LI</p>
+                                </div>
+                                <p>WOODZ</p>
+
+                                <p>♡ 218,711</p>
+                                <div class="icon">
+                                    <a href="">
+                                        <img src="img/top100/topicon1.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon2.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon3.png" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="img/top100/topicon4.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button>더보기</button>
+                </div>
+            </section>
+            <section class="main4">
+                <div class="title">
+                    <h3>인기 아티스트</h3>
+                    <img src="img/top100/icon0.png" alt="이동버튼">
+                </div>
+                <div class="slidebox">
+                    <div class="swiper main4slide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img1/10cm.jfif" alt="">
+                                <div class="text">
+                                    <h2>10cm 대표곡</h2>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img1/akk.jfif" alt="">
+                                <div class="text">
+                                    <h2>AKMU 대표곡</h2>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img1/jenny.jpg" alt="">
+                                <div class="text">
+                                    <h2>Jenny 대표곡</h2>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img1/riiiiiii.jpg" alt="">
+                                <div class="text">
+                                    <h2>RIIZE 대표곡</h2>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img1/aes.jfif" alt="">
+                                <div class="text">
+                                    <h2>aespa 대표곡</h2>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img1/lee.jfif" alt="">
+                                <div class="text">
+                                    <h2>이영지 대표곡</h2>
+                                </div>
+                            </div>
+                            <!-- 사진추가 -->
+                            <div class="swiper-slide">
+                                <img src="img1/Jina.jpg" alt="">
+                                <div class="text">
+                                    <h2>권진아 대표곡</h2>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img1/JJ.jpg" alt="">
+                                <div class="text">
+                                    <h2>죠지 대표곡</h2>
+                                </div>
+                            </div>
+                            <!-- 사진추가 -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </section>
+            <div class="inner">
+                <section class="main5">
+                    <div class="title">
+                        <h3>최신음악</h3>
+                        <a href="">
+                            <img src="img/top100/icon0.png" alt="">
+                        </a>
+                    </div>
+                    <ul class="newmusic">
+                        <li>
+                            <div class="new">
+                                <a href="">
+                                    <img src="img/new/ost.png" alt="">
+                                    <div class="newoverlay"></div>
+                                </a>
+                            </div>
+                            <p>미지의 서울 OST Part.4</p>
+                            <p class="singer">홍이삭</p>
+                        </li>
+
+                        <li>
+                            <div class="new">
+                                <a href="">
+                                    <img src="img/new/birthday.png" alt="">
+                                    <div class="newoverlay"></div>
+                                </a>
+                            </div>
+                            <p>birthday</p>
+                            <p class="singer">유령서점</p>
+                        </li>
+                        <li>
+                            <div class="new">
+                                <a href="">
+                                    <img src="img/new/224.png" alt="">
+                                    <div class="newoverlay"></div>
+                                </a>
+                            </div>
+                            <p>224</p>
+                            <p class="singer">KISS OF LIFE</p>
+                        </li>
+                        <li>
+                            <div class="new">
+                                <a href="">
+                                    <img src="img/new/love.png" alt="">
+                                    <div class="newoverlay"></div>
+                                </a>
+                            </div>
+                            <p>사랑이라 부르기로 했어</p>
+                            <p class="singer">문정</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <section class="main6">
+                <div class="inner">
+                    <div class="title">
+                        <h3>멜론티비</h3>
+                        <a href="">
+                            <img src="img/top100/icon0.png" alt="">
+                        </a>
+                    </div>
+                    <div class="melontv">
+                        <div class="tvdummy">
+                            <div class="tv" data-aos="fade-down" data-aos-delay="800">
+                                <div class="tvimg">
+                                    <a href="">
+                                        <img src="img1/tv1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="icon1">
+                                    <a href="">
+                                        <img src="img/tv/icon.png" class="icon-default" alt="">
+                                        <img src="img/tv/iconhover.png" class="icon-hover" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tv" data-aos="fade-right" data-aos-delay="1000">
+                                <div class="tvimg">
+                                    <a href="">
+                                        <img src="img1/tv2.png" alt="">
+
+                                    </a>
+                                </div>
+                                <div class="icon1">
+                                    <a href="">
+                                        <img src="img/tv/icon.png" class="icon-default" alt="">
+                                        <img src="img/tv/iconhover.png" class="icon-hover" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tvdummy">
+                            <div class="tv" data-aos="fade-left" data-aos-delay="1400">
+                                <div class="tvimg">
+                                    <a href="">
+                                        <img src="img1/tv4.png" alt="">
+
+                                    </a>
+                                </div>
+                                <div class="icon1">
+                                    <a href="">
+                                        <img src="img/tv/icon.png" class="icon-default" alt="">
+                                        <img src="img/tv/iconhover.png" class="icon-hover" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tv" data-aos="fade-up" data-aos-delay="12
+                            00">
+                                <div class="tvimg">
+                                    <a href="#">
+                                        <img src="img1/tv3.png" alt="">
+
+                                    </a>
+                                </div>
+                                <div class="icon1">
+                                    <a href="#">
+                                        <img src="img/tv/icon.png" class="icon-default" alt="">
+                                        <img src="img/tv/iconhover.png" class="icon-hover" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="main7">
+            <div class="inner">
+                <div class="title">
+                    <h3>멜론 주간 인기상 투표</h3>
+                    <a href="#">
+                        <img src="img/top100/icon0.png" alt="">
+                    </a>
+                </div>
+                <div class="boxs">
+                    <div class="ibox">
+                        <img src="img1/nct7.png" alt="">
+                        <h3><strong>1</strong>  NCT DREAM</h3>
+                    </div>
+                    <div class="ibox">
+                        <img src="img1/aespa7.png" alt="">
+                        <h3><strong>2</strong>  aespa</h3>
+                    </div>
+                </div>
+                <div class="bt">
+                    <button class="i1">투표하기</button>
+                    <button class="i2">투표하기</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="togglebar">
+        <div class="toginner">
+            <div class="minihead">
+                <!-- <img src="img1/X.png" alt=""> -->
+                <p>내 프로필</p>
+                <a href=""><img src="img1/bell.png" alt="" class="bell"></a>
+            </div>
+            <div class="top">
+                <img src="img1/melony.png" alt="">
+                <p>멜로니</p>
+            </div>
+            <div class="music">
+                <p>현재 재생 중인 음악</p>
+                <div class="musicbox">
+                    <img src="img1/day62.png" alt="">
+                    <div class="playmusic">
+                        <div class="player">
+                            <div class="player-track">
+                                <p class="name1">HAPPY</p>
+                                <p class="name2">DAY6(데이식스)</p>
+                                <audio src="audio/DAY6 (데이식스)-02-HAPPY.mp3"></audio>
+                                <div class="stop"></div>
+                                <div class="musicline"></div>
+                                <div class="musicnum">
+                                    <p class="num1">00:00</p>
+                                    <p class="num2">00:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="playlist">
+                <p> 플레이리스트</p>
+                <a href="#">
+                    <div class="plist1">love ya!</div>
+                    <img src="img1/loveya.png" alt="플레이리스트1">
+                </a>
+                <a href="#">
+                    <div class="plist2">카공용 내 플리</div>
+                    <img src="img1/cafe.png" alt="플레이리스트2">
+                </a>
+                <a href="#">
+                    <div class="plist3">여행가고싶어요</div>
+                    <img src="img1/trip.png" alt="플레이리스트3">
+                </a>
+                <a href="#">
+                    <div class="plist4">난 슬플 때</div>
+                    <img src="img1/sad.png" alt="플레이리스트4">
+                </a>
+                <a href="#">
+                    <div class="plist5">산책할 때 듣자</div>
+                    <img src="img1/flower.png" alt="플레이리스트5">
+                </a>
+                <a href="#">
+                    <div class="plist6">다 나가 그냥</div>
+                    <img src="img1/fire.png" alt="플레이리스트6">
+                </a>
+            </div>
+        </div>
+        <div class="minifooter">
+            <div class="icon">
+                <a href="#"><img src="img1/home.png" alt=""></a>
+                <a href="#"><img src="img1/Library music.png" alt=""></a>
+                <a href="#"><img src="img1/set.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <div class="togglebutton"></div>
+
+
+
+    <footer>
+        <div class="event">
+            <a href="#">
+                <img src="img1/bn.png" alt="#">
+            </a>
+        </div>
+        <div class="footerbox">
+            <section class="inner">
+                <div class="footerlogo"><a href="#"><img src="img1/image 107 (1).png" alt="logo"></a></div>
+                <ul class="footerlist">
+                    <li><a href="#">회사 정보</a>
+                        <ul class="sub">
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">제휴 / 프로모션 문의</a></li>
+                            <li><a href="#">이메일무단수집거부</a></li>
+                            <li><a href="#">위치기반서비스 이용약관</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객지원</a>
+                        <ul class="sub">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">자주 묻는 질문</a></li>
+                            <li><a href="#">문의하기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">서비스</a>
+                        <ul class="sub">
+                            <li><a href="#">멜론 플레이어</a></li>
+                            <li><a href="#">ios / Android 앱</a></li>
+                            <li><a href="#">Windows / Mac 앱</a></li>
+                            <li><a href="">멜론 스튜디오</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">멜론 플러스</a>
+                        <ul class="sub">
+                            <li><a href="">멜론 티켓</a></li>
+                            <li><a href="">멜론 매거진</a></li>
+                            <li><a href="">멜론 뮤직어워드</a></li>
+                            <li><a href="">멜론 뮤직웨이브</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="copyright"><a href="">
+                        <p>(주)카카오엔터테인먼트 경기도 성남시 분당구 판교약로 235, 에이치스퀘어 N동 8, 9, 10층</p>
+                        <p>공동대표이사 : 권기수, 장윤중</p>
+                        <p>사업자등록번호:220-88-02594</p>
+                        <p>통신판매업신고번호 : 2018-성남분당B-0004</p>
+                        <p>사업자정보확인 문의전화 : 1566-7727 (평일 09:00-18:00, 유료)</p>
+                        <p>이메일:melon_info@kakaoent.com</p>
+                        <p>호스팅서비스사업자 : (주)카카오엔터테인먼트 &copy; kakao Entertainment Corp.</p>
+
+                    </a></div>
+            </section>
+        </div class="footerlogo">
+    </footer>
+
+    <script>
+        var swiper = new Swiper(".mainpage1", {
+            autoplay: {
+                delay: 2500,
+                disableOnlnteraction: false,
+            },
+            loop: true,
+            loopAdditionalSlides: 1,
+            slidesPErView: 1,
+            spaceBetween: 60,
+        });
+    </script>
+
+    <script>
+        AOS.init({
+            duration: "1000"
+
+        })
+    </script>
+
+    <script>
+        var swiper = new Swiper(".main4slide", {
+            slidesPerView: 5,
+            centeredSlides: true,
+            spaceBetween: 0,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                1920: {
+                    slidesPerView: 5,
+                },
+                1440: {
+                    slidesPerView: 5,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 15,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 15,
+                },
+                425: {
+                    slidesPerView: 1.8,
+                    spaceBetween: 10,
+                },
+                375: {
+                    slidesPerView: 1,
+                },
+                320: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 10,
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
