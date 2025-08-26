@@ -1330,8 +1330,8 @@
 
     header .head .search img {
         position: absolute;
-        left: 50px;
-        top: 19.3px;
+        left: 23px;
+        top: 19.4px;
         width: 15px;
         z-index: 10;
     }
@@ -1340,7 +1340,7 @@
         width: 200px;
         height: 30px;
         margin-top: 12px;
-        margin-left: 20%;
+        margin-left: 6%;
         padding: 5px 29px;
         font-size: 1rem;
         padding-left: 40px;
@@ -1350,19 +1350,20 @@
     /* mian1 */
 
     .main1 .mainpage1 h3 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-left: 15px;
-        margin-top: 200px;
+        margin-top: 170px;
     }
 
     .main1 .mainpage1 {
-        height: 250px;
+        height: 220px;
 
     }
 
     .main1 .mainpage1 .swiper-slide {
         background-size: cover;
     }
+
 
     /* main1swiper */
     .mainpage1 .img1 {
@@ -1448,7 +1449,7 @@
     .main3 .box .boxdummy {
         width: 100%;
         height: 100%;
-        padding: 10px;
+        padding: 0;
         font-size: 0.7rem;
         display: flex;
         justify-content: space-between;
@@ -1456,9 +1457,8 @@
     }
 
     .main3 .box .boxdummy img {
-        /* padding: 0 15px; */
-        width: 40px;
-        margin-top: 3px;
+        width: 4rem;
+        margin-top: 0.5rem;
     }
 
     .main3 .box .boxdummy .album {
@@ -1466,9 +1466,10 @@
     }
 
     .main3 .box .boxdummy p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         /* margin: 12px; */
-        width: 80px;
+        width: 10rem;
+        text-align: center;
 
     }
 
@@ -1484,7 +1485,7 @@
 
     .main3 .box .boxdummy .number {
         font-size: 3rem;
-        padding-right: 8px;
+        margin-left: 0.8rem;
     }
 
 
@@ -1637,33 +1638,53 @@
 
     .main7 .title h3 {
         font-size: 2.3rem;
-        margin-left: 30px;
+        margin-left: 3rem;
     }
 
     .main7 .title img {
-        width: 30px;
+        width: 3rem;
     }
 
     .main7 .boxs {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 8rem;
     }
 
     .main7 .boxs .ibox {
-        width: 350px;
-        height: 300px;
-        margin-top: 50px;
+        width: 35rem;
+        height: 28rem;
+        margin-top: 5rem;
     }
 
     .main7 .boxs .ibox img {
-        width: 310px;
-        height: 210px;
+        width: 30rem;
+        height: 20rem;
     }
 
-    .main7 button {
-        display: none;
+    .main7 .ibox h3 {
+        font-size: 2rem;
     }
+
+    .main7 .bt button {
+        font-size: 1.4rem;
+    }
+
+    .main7 .i1 {
+        position: absolute;
+        top: 47rem;
+        width: 15rem;
+        height: 4rem;
+    }
+
+    .main7 .i2 {
+        position: absolute;
+        bottom: 8rem;
+        width: 15rem;
+        height: 4rem;
+    }
+
 
     /* footer */
 
